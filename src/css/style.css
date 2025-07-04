@@ -1,0 +1,40 @@
+body {
+    background: #0e0312 url("../img/background.png") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 35px;
+    font-family: monospace, sans-serif;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    animation: animacao-logo 5s infinite linear;
+    color: #e052fd;
+    border-radius: 50%;
+    transition: 0.6s ease-in;
+}
+
+.logo:hover {
+    box-shadow: 1px 1px 50px 10px #e052fd inset;
+}
+
+h2 {
+    font-size: 23px;
+    margin: 50px 15px;
+    text-align: center;
+}
+
+@keyframes animacao-logo {
+    to {
+        transform: rotate(360deg);
+    }
+}

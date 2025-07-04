@@ -1,0 +1,27 @@
+
+.desafio {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 30px 13px;
+    margin: 0px 15px 80px 15px;
+    transition: 0.4s ease-in;
+}
+
+.desafio:hover {
+    box-shadow: 1px 1px 30px 3px rgba(224, 82, 253, 0.7);
+}
+
+.desafio h3 {
+    text-align: center;
+    line-height: 26px;
+    margin: 0px 17px 20px 17px;
+    color: rgb(95, 10, 207);
+}
+
+.desafio p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
