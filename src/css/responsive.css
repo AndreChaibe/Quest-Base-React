@@ -1,0 +1,32 @@
+@media (max-width: 1085px) {
+
+    h1 {
+        margin: 10vh 20px 35px 20px;
+        font-family: monospace, sans-serif;
+        text-align: center;
+    }
+
+    div#root {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .desafio {
+        height: 218px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    body {
+        height: 100%;
+    }
+
+     .desafio {
+        height: auto;
+     }
+}
+
+
+@media (max-width: 548px) {}

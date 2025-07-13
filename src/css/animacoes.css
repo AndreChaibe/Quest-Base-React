@@ -1,0 +1,37 @@
+@keyframes animacao-logo {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes entrada-desafio-um {
+    0% {
+        opacity: 0.1;
+        transform: translate(-500px);
+    }
+
+    30% {
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+
+}
+
+@keyframes entrada-desafio-dois {
+    0% {
+        opacity: 0.1;
+        transform: translate(500px);
+    }
+
+    30% {
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+
+}

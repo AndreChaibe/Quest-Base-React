@@ -1,12 +1,27 @@
+div#root {
+    display: flex;  
+    justify-content: center;
+    margin-bottom: 20px;
+}
 
 .desafio {
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
+    position: relative;
     border-radius: 20px;
     padding: 30px 13px;
     margin: 0px 15px 80px 15px;
     transition: 0.4s ease-in;
+    
+}
+
+.desafio:nth-child(1) {
+  animation: entrada-desafio-um 1.4s ease-out 1;
+}
+
+.desafio:nth-child(2) {
+  animation: entrada-desafio-dois 1.4s ease-out 1;
 }
 
 .desafio:hover {

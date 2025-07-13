@@ -1,4 +1,4 @@
-import { Desafios } from "./components/desafios/desafios.jsx";
+import { Desafios } from "./components/desafios/index.jsx";
 
 export function App() {
 

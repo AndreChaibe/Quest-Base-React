@@ -1,5 +1,5 @@
-import "./button.css";
+import "./index.css";
 
-export const Button = ({label}) => {
+export const AlertButton = ({label}) => {
    return <button onClick={() => { alert(`A label desse botão é ${label}`)}}>{label}</button>
 }
